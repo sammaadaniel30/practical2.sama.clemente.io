@@ -1,7 +1,5 @@
 # practical2.sama.clemente.io
 
-# practical2.sama.clemente.io
-
 This README.md files is the DDD(Design Detailed Document) for the project of creating a website.
 
 DESCRIPTION OF MY WORK:
