@@ -2,7 +2,7 @@
 
 This README.md files is the DDD(Design Detailed Document) for the project of creating a website.
 
-DESCRIPTION OF MY WORK:
+**DESCRIPTION OF MY WORK:**
 
 This project consists in developing a website, to document and record everthing that has I have learned in the subjects of the degree which I am currently coursing. (Computer Science)
 
@@ -24,11 +24,13 @@ A public folder, will store all of the individual section's .html files
 
 An Images folder, will store all of the images used in the development of this project.
 
-PROBLEMS DURING THE DEVELOPMENT
+**PROBLEMS DURING THE DEVELOPMENT**
 
-TIMELINE OF DEVELOPMENT
+During the development of the home page (index.html) I faced a problem which consisted in applying the CSS and images on to the HTML file which were in another folder. At the beggining I thougnt that this was a problem with the GitHub repository and this made me deleted and create another repositoy and start everything from the top. At the end I concluded that it was a simple issue that only took 10 seconds to finally fix it. 
 
-27/11/2023
+**TIMELINE OF DEVELOPMENT**
+
+**27/11/2023**
 
 The repository in GitHub was created
 
@@ -42,7 +44,7 @@ Created styles.css file.
 
 Added profile.JPG into Images folder.
 
-01/12/2023
+**01/12/2023**
 
 Added the background image for the main page
 
@@ -56,8 +58,16 @@ Added image for fundamentals page
 
 Added image for degree page
 
-02/12/2023
+**02/12/2023**
 
 Added the CSS file for the home page named as styles_home.css
 
-CONCLUSIONS
+Identified and issue involving the CSS files and Images (more info see Problem 1 in PROBLEMS DURING DEVELOPMENT section) 
+
+**03/12/22**
+
+Modified the home page to leave it as in a BETA
+
+Modified and probably finished all of the neccessary styles in the CSS file for the home page
+
+**CONCLUSIONS**
