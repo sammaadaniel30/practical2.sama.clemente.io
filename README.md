@@ -74,4 +74,6 @@ Modified and probably finished all of the neccessary styles in the CSS file for 
 
 Added a footer in the home page and also added its classes into the CSS file for the home page
 
+Added logo.jpg into the repository, will be used in the footer of all the websites
+
 **CONCLUSIONS**
