@@ -26,7 +26,7 @@ An Images folder, will store all of the images used in the development of this p
 
 **PROBLEMS DURING THE DEVELOPMENT**
 
-During the development of the home page (index.html) I faced a problem which consisted in applying the CSS and images on to the HTML file which were in another folder. At the beggining I thougnt that this was a problem with the GitHub repository and this made me deleted and create another repositoy and start everything from the top. At the end I concluded that it was a simple issue that only took 10 seconds to finally fix it. 
+Problem 1: During the development of the home page (index.html) I faced a problem which consisted in applying the CSS and images on to the HTML file which were in another folder. At the beggining I thougnt that this was a problem with the GitHub repository and this made me deleted and create another repositoy and start everything from the top. At the end I concluded that it was a simple issue that only took 10 seconds to finally fix it. 
 
 **TIMELINE OF DEVELOPMENT**
 
