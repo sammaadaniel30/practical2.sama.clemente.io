@@ -70,4 +70,8 @@ Modified the home page to leave it as in a BETA
 
 Modified and probably finished all of the neccessary styles in the CSS file for the home page
 
+**04/12/22**
+
+Added a footer in the home page and also added its classes into the CSS file for the home page
+
 **CONCLUSIONS**
