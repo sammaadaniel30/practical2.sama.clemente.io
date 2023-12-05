@@ -106,17 +106,15 @@
 .hero_list1 {
     margin-top: 20px;
     font-size: 25px;
-    line-height: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(173, 173, 174);
-    font-weight: 300;
     letter-spacing: 3px;
     height: auto; 
     text-align: left;
     text-transform: uppercase;
+    margin-bottom: 20px;
     padding-left: 25px;
-    padding-bottom: 20px;
-    
+    line-height: 30px;
 }
 
 
@@ -140,17 +138,26 @@
     
 }
 
+.footer_links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+}
+
 .footer_links a {
+    
     color: rgb(151, 45, 35, 255);
     text-decoration: none;
-    
+    display: block; 
 }
 
 .footer_links a:hover {
-    color: darkred;
-    cursor: pointer;
-    
+    color: white; 
 }
+
 
 .footer_copyright {
     text-align: left;
