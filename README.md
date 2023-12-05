@@ -80,4 +80,10 @@ Completed the HTML code for the home page (index.html)
 
 Completed the CSS file for the home page
 
+**05/12/2023** 
+
+Moved the index.html out of the sections folder
+
+Added the docs folder with all its propierties including the subfolders
+
 **CONCLUSIONS**
