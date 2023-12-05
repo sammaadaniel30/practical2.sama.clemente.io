@@ -35,6 +35,7 @@
     color: rgb(0, 100, 0);
     cursor: pointer;
     text-decoration: none;
+    flex: 1 0 auto;
 }
 
 .Menu {
