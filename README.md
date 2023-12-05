@@ -80,10 +80,18 @@ Completed the HTML code for the home page (index.html)
 
 Completed the CSS file for the home page
 
-**05/12/2023** 
+**06/12/2023** 
 
 Moved the index.html out of the sections folder
 
 Added the docs folder with all its propierties including the subfolders
+
+Finished the page of Degree 
+
+Finished its CSS style (Degree Page)
+
+Fixed some minor errors in the HTML of the Home Page
+
+Fixed some minor erros in the CSS file of the Home Page
 
 **CONCLUSIONS**
