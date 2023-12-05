@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 90px; 
+    background-color: rgb(181, 208, 218);
+    border-bottom: 1px solid black; 
+    width: 100%;
+}
+
+.header_container {
+    margin: auto; 
+    width: 90%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_image {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 253, 0);
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+}
+
+
+.Menu > div > a {
+    color: rgb(0, 100, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Menu {
+    margin-left: auto;
+    font-size: 20px;
+    gap: 30px;
+    align-items: right;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.Menu > div > a:hover {
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero1{
+    background-image: url("../Images/degree.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 1100px;
+}
+
+.hero_content1 {
+    margin: auto; 
+    width: 800px; 
+    height: 400px; 
+    text-align: center;
+    margin-top: 0px;
+}
+
+.hero_header1 {
+    color: black;
+    background-color: rgb(2, 0, 24);
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: white;
+    width: 800px; 
+    text-transform: uppercase;
+    font-family: Garamond;
+    margin: auto; 
+    height: 100px;
+}
+
+.hero_description1 {
+    margin-top: 40px;
+    background-color: rgb(22, 85, 131);
+    font-size: 25px;
+    line-height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: forestgreen;
+    font-weight: 300;
+    letter-spacing: 3px;
+    height: auto; 
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+
+.courses {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 20px;
+    width: auto;
+}
+
+.course_year {
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    width: 100%; 
+    padding: 20px; 
+    margin: 1%; 
+    margin-bottom: 30px; 
+    text-align: left; 
+}
+
+.link_fundamentals {
+    text-decoration: none;
+    color: purple;
+}
+
+.link_fundamentals:hover,
+.link_fundamentals a:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.link_fundamentals a {
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.course_year h2 {
+    background-color: gray;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.course_year ul li {
+    margin-bottom: 10px; 
+}
+
+.footer {
+    background-color: rgb(3, 60, 24);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+}
+
+.footer_links a {
+    
+    color: rgb(151, 45, 35, 255);
+    text-decoration: none;
+    display: block; 
+}
+
+.footer_links a:hover {
+    color: white; 
+}
+
+
+.footer_copyright {
+    text-align: left;
+    width: 33%;
+    display: flex;
+    color: rgb(151, 144, 133);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%; 
+}
+
+
