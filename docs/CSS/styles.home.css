@@ -80,6 +80,7 @@
     line-height: 60px;
     font-weight: 300;
     letter-spacing: 4px;
+    text-align: center;
     color: white;
     width: 800px; 
     text-transform: uppercase;
@@ -98,7 +99,7 @@
     font-weight: 300;
     letter-spacing: 3px;
     height: auto; 
-    text-align: left;
+    text-align: center;
     padding-bottom: 20px;
     
 }
