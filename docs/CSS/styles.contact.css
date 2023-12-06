@@ -56,7 +56,7 @@
 }
 
 body {
-    background-color: blue; /* o cualquier otro color azul que estés usando */
+    background-color: blue; 
 }
 
 .hero1{
@@ -71,10 +71,10 @@ body {
 .hero_content1 form {
     display: flex;
     flex-direction: column;
-    background-color: rgb(151, 45, 35, 255); /* Añade un fondo azul oscuro al formulario */
-    padding: 40px; /* Añade un poco de espacio alrededor del formulario */
-    border-radius: 5px; /* Añade bordes redondeados al formulario */
-    margin-top: 20px; /* Añade un margen alrededor del formulario para crear espacio entre el formulario y el rectángulo gris */
+    background-color: rgb(151, 45, 35, 255); 
+    padding: 40px; 
+    border-radius: 5px; 
+    margin-top: 20px; 
 }
 
 .hero_header1 {
@@ -104,14 +104,14 @@ body {
     height: auto; 
     text-align: left;
     padding-bottom: 20px;
-    padding: 20px; /* Añade un poco de espacio alrededor del texto */
-    border: 1px solid #ccc; /* Añade un borde alrededor del texto para crear un rectángulo */
+    padding: 20px; 
+    border: 1px solid #ccc; 
 }
 
 
 .contact-form {
     width: 300px;
-    margin: 20px auto; /* Añade un margen arriba y abajo del formulario para crear espacio entre el formulario y el rectángulo gris */
+    margin: 20px auto; 
     padding: 20px;
     border: 1px solid #ccc;
     background: #eee;
@@ -148,8 +148,8 @@ body {
 }
 
 .contact-form input[type="submit"]:hover {
-    background-color: lightskyblue; /* Cambia el color de fondo del botón a un azul oscuro al pasar el ratón por encima */
-    color: #fff; /* Mantiene el color del texto del botón en blanco al pasar el ratón por encima */
+    background-color: lightskyblue; 
+    color: #fff; 
 }
 
 
@@ -162,7 +162,7 @@ body {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px; /* Mueve el pie de página hacia abajo */
+    margin-top: 100px; 
 }
 
 .footer_links {
@@ -216,13 +216,13 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centra los elementos verticalmente */
-    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .hero_content1 {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centra los elementos verticalmente */
-    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; 
+    align-items: center; 
 }
