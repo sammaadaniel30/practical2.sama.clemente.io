@@ -28,6 +28,8 @@ An Images folder, will store all of the images used in the development of this p
 
 Problem 1: During the development of the home page (index.html) I faced a problem which consisted in applying the CSS and images on to the HTML file which were in another folder. At the beggining I thougnt that this was a problem with the GitHub repository and this made me deleted and create another repositoy and start everything from the top. At the end I concluded that it was a simple issue that only took 10 seconds to finally fix it. 
 
+Problem 2: During the development of the Contact Page and the Degree Page it was quite difficult to add the correct styles to each of the classes for example the list of the contact form so it could when it was visualised in the website it was clear and friendly to users to read and see the content. 
+
 **TIMELINE OF DEVELOPMENT**
 
 **27/11/2023**
@@ -93,5 +95,10 @@ Finished its CSS style (Degree Page)
 Fixed some minor errors in the HTML of the Home Page
 
 Fixed some minor erros in the CSS file of the Home Page
+
+Finished the page of Contact Me
+
+Finished the CSS file for the Contact Me page
+
 
 **CONCLUSIONS**
