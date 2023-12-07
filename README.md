@@ -114,4 +114,11 @@ Finished the HTML for the Net Page
 
 Addressed Problem 3
 
+Uploaded a new image to use for the background of the Topic Page
+
+Uploaded to a new created folder called topicfiles, both documents used for the first practical in the subject of fundamentals
+
+Finished the CSS file for the Topic Page
+
+Finshed the HTML for the Topic Page
 **CONCLUSIONS**
