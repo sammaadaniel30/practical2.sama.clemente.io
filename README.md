@@ -30,6 +30,8 @@ Problem 1: During the development of the home page (index.html) I faced a proble
 
 Problem 2: During the development of the Contact Page and the Degree Page it was quite difficult to add the correct styles to each of the classes for example the list of the contact form so it could when it was visualised in the website it was clear and friendly to users to read and see the content. 
 
+Problem 3: During the development of the Net page, small problem occured on the font of the menu where the links to the other websites are located. This was a bit weird since the same CSS style and code was used over and over again of the previous sections and the font did not change at any point. But on the Net Page it changed to another font using the same CSS code, so I investigated to find what was the original font used in the other pages. The result was that the font used was called "Poppins", so I decided to manually fix the problem by adding "font-family: Poppins;" in the appropiate part of the code and the issue was solved. This also happened for the copyright section of the page, at the end this code was used in the CSS file "font-family: Montserrat;". For the future I will use this fragments to avoid any problems further on.
+
 **TIMELINE OF DEVELOPMENT**
 
 **27/11/2023**
@@ -98,7 +100,18 @@ Fixed some minor erros in the CSS file of the Home Page
 
 Finished the page of Contact Me
 
-Finished the CSS file for the Contact Me page
+Finished the CSS file for the Contact Me page 
 
+Addressed Problem 2.
+
+**07/12/2023**
+
+Uploaded a new image for the background of the Net Page. The other one has been removed as it had the same name to avoid any future to problems it was deleted from the repository. 
+
+Finished the CSS file for the Net Page (ONLY NEEDING TO POST PARTNERS' LINKS TO WEBSITES)
+
+Finished the HTML for the Net Page 
+
+Addressed Problem 3
 
 **CONCLUSIONS**
