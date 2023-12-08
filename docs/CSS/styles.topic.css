@@ -2,21 +2,18 @@
     padding: 0;
     margin: 0;
 }
-
 .header {
     height: 90px; 
     background-color: rgb(181, 208, 218);
     border-bottom: 1px solid black; 
     width: 100%;
 }
-
 .header_container {
     margin: auto; 
     width: 90%; 
     display: flex;
     flex-wrap: wrap;
 }
-
 .header_image {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(245, 253, 0);
@@ -28,7 +25,6 @@
     text-align: left;
     padding-top: 30px;
 }
-
 .Menu > div > a {
     color: rgb(0, 100, 0);
     cursor: pointer;
@@ -37,7 +33,6 @@
     font-weight: normal; 
     font-family: Poppins;
 }
-
 .Menu {
     margin-left: auto;
     font-size: 20px;
@@ -48,20 +43,19 @@
     flex-wrap: wrap;
     padding-top: 20px;
 }
-
 .Menu > div > a:hover {
     color: rgb(255, 89, 0);
     cursor: pointer;
     text-decoration: none;
 }
-
 .hero1 {
-    background-image: url("../Images/topic.jpeg");
+    background-image: url("../Images/aboutme.jpeg");
     background-repeat: no-repeat; 
     background-size: cover; 
     width: 100%;
-    height: 900px;
+    height: 1000px;
 }
+
 
 .hero_content1 {
     margin: auto; 
@@ -70,7 +64,6 @@
     text-align: center;
     margin-top: 0px;
 }
-
 .hero_header1 {
     color: black;
     background-color: rgb(2, 0, 24);
@@ -84,7 +77,7 @@
     text-transform: uppercase;
     font-family: Garamond;
     margin: auto; 
-    height: 190px;
+    height: 110px;
 }
 
 .hero_description1 {
@@ -136,31 +129,34 @@ body {
 
 .box_red img {
     width: 100%; 
-    height: 100%; 
+    height: auto; 
     object-fit: cover; 
 }
 
 .hero_photo_footer {
     color: white;
     margin-top: 5px;
+    font-family: Arial;
+    font-size: 20px;
 }
+
 
 .box_purple {
     background-color: purple;
+    height: 600px; 
+    font-size: 15px; 
+    font-family: Calibri; 
 }
 
 .text {
     margin-bottom: 60px; 
+    font-family: Calibri; 
+    font-size: 15px; 
+    font-family: Calibri;
 }
 
 .list {
     margin-top: 60px; 
-}
-
-
-.box_new {
-    background-color: blue; 
-    background-image: url("../Images/terran1.jpg");
 }
 
 .box_header {
