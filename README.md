@@ -121,4 +121,11 @@ Uploaded to a new created folder called topicfiles, both documents used for the 
 Finished the CSS file for the Topic Page
 
 Finshed the HTML for the Topic Page
+
+**08/12/2023**
+
+Finished the CSS file for the Fundamentals Page 
+
+Finished the HTML code for the Fundamentals Page
+
 **CONCLUSIONS**
