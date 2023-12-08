@@ -121,8 +121,8 @@ body {
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    width: 300px; /* Cambio: ancho del rectángulo */
-    height: 300px; /* Cambio: altura del rectángulo */
+    width: 300px; 
+    height: 300px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,13 +131,18 @@ body {
 
 .box_red {
     background-color: red;
-    position: relative; /* Asegúrate de que el contenedor tiene posición relativa */
+    position: relative; 
 }
 
 .box_red img {
-    width: 100%; /* Cambio: ancho de la imagen al 100% del contenedor */
-    height: 100%; /* Cambio: altura de la imagen al 100% del contenedor */
-    object-fit: cover; /* Cambio: la imagen cubrirá todo el contenedor manteniendo su relación de aspecto */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.hero_photo_footer {
+    color: white;
+    margin-top: 5px;
 }
 
 .box_purple {
@@ -145,11 +150,11 @@ body {
 }
 
 .text {
-    margin-bottom: 60px; /* Nuevo: margen inferior de 20px */
+    margin-bottom: 60px; 
 }
 
 .list {
-    margin-top: 60px; /* Nuevo: margen superior de 20px */
+    margin-top: 60px; 
 }
 
 
