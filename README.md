@@ -128,4 +128,8 @@ Finished the CSS file for the Fundamentals Page
 
 Finished the HTML code for the Fundamentals Page
 
+Finished the CSS file for the About Me Page
+
+Finished the HTML code for the About Me Page
+
 **CONCLUSIONS**
