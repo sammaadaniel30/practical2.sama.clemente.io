@@ -171,7 +171,7 @@ body {
     align-items: center;
     text-decoration: none;
     width: 33%;
-    
+    font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .footer_links {
@@ -181,10 +181,10 @@ body {
     align-items: center;
     text-decoration: none;
     width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .footer_links a {
-    
     color: rgb(151, 45, 35, 255);
     text-decoration: none;
     display: block; 

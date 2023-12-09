@@ -167,6 +167,7 @@ a:hover {
     align-items: center;
     text-decoration: none;
     width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .footer_links {
@@ -176,6 +177,7 @@ a:hover {
     align-items: center;
     text-decoration: none;
     width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .footer_links a {
@@ -196,7 +198,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     font-family: Montserrat;
-
 }
 
 .footer_image {

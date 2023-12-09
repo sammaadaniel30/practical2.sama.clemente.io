@@ -148,7 +148,7 @@ height: 250px;
     align-items: center;
     text-decoration: none;
     width: 33%;
-    
+    font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .footer_links {
@@ -158,10 +158,10 @@ height: 250px;
     align-items: center;
     text-decoration: none;
     width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .footer_links a {
-    
     color: rgb(151, 45, 35, 255);
     text-decoration: none;
     display: block; 
@@ -169,6 +169,23 @@ height: 250px;
 
 .footer_links a:hover {
     color: white; 
+}
+
+.footer_copyright {
+    text-align: left;
+    width: 33%;
+    display: flex;
+    color: rgb(151, 144, 133);
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.footer_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%; 
 }
 
 

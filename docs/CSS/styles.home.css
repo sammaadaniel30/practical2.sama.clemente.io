@@ -136,7 +136,7 @@
     align-items: center;
     text-decoration: none;
     width: 33%;
-    
+    font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .footer_links {
@@ -146,10 +146,10 @@
     align-items: center;
     text-decoration: none;
     width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .footer_links a {
-    
     color: rgb(151, 45, 35, 255);
     text-decoration: none;
     display: block; 
@@ -159,7 +159,6 @@
     color: white; 
 }
 
-
 .footer_copyright {
     text-align: left;
     width: 33%;
@@ -167,7 +166,7 @@
     color: rgb(151, 144, 133);
     justify-content: center;
     align-items: center;
-   
+    font-family: Montserrat;
 }
 
 .footer_image {
@@ -175,5 +174,4 @@
     justify-content: center;
     align-items: center;
     width: 33%; 
-    
 }
