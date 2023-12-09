@@ -68,6 +68,14 @@ body {
     height: 1000px;
 }
 
+.hero_content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
 .hero_content1 form {
     display: flex;
     flex-direction: column;
@@ -194,7 +202,6 @@ body {
     color: white; 
 }
 
-
 .footer_copyright {
     text-align: left;
     width: 33%;
@@ -220,9 +227,3 @@ body {
     align-items: center; 
 }
 
-.hero_content1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-}
