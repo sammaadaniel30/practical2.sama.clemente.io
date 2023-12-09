@@ -132,4 +132,12 @@ Finished the CSS file for the About Me Page
 
 Finished the HTML code for the About Me Page
 
+**09/12/2023**
+
+Updated by fixing minor errors in the different webpages and also CSS. CSS has been modified so that it is easier to read. 
+
+Uploaded 2nd picture to be used in the About Me page. 
+
+To this point all of the websites have been completed. The only thing missing are the website links to the webpages of my partes, however their the links from my webpage has already been created the only thing missing are the specific links to their websites. 
+
 **CONCLUSIONS**
