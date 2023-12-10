@@ -140,4 +140,8 @@ Uploaded 2nd picture to be used in the About Me page.
 
 To this point all of the websites have been completed. The only thing missing are the website links to the webpages of my partes, however their the links from my webpage has already been created the only thing missing are the specific links to their websites. 
 
+**10/12/2023**
+
+In the links of the footer, links have been updated so that two links now redirect to the README.md file and the LICENSE file. 
+
 **CONCLUSIONS**
