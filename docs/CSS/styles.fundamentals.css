@@ -125,16 +125,7 @@ p {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 300px;
-}
-
-.footer_links {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    width: 33%;
-    font-family: 'Helvetica', Arial, sans-serif;
+    margin-top: 390px;
 }
 
 .footer_links {
@@ -172,23 +163,4 @@ p {
     justify-content: center;
     align-items: center;
     width: 33%; 
-}
-
-
-.footer_copyright {
-    text-align: left;
-    width: 33%;
-    display: flex;
-    color: rgb(151, 144, 133);
-    justify-content: center;
-    align-items: center;
-   
-}
-
-.footer_image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 33%; 
-    
 }
