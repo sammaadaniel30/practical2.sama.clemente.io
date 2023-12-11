@@ -6,7 +6,7 @@ This README.md files is the DDD(Design Detailed Document) for the project of cre
 
 This project consists in developing a website, to document and record everthing that has I have learned in the subjects of the degree which I am currently coursing. (Computer Science)
 
-To make this posible my webpage will include the following sections:
+To make this posible, my website will include the following sections:
 
 A main section, showing information about the website
 
@@ -31,6 +31,9 @@ Problem 1: During the development of the home page (index.html) I faced a proble
 Problem 2: During the development of the Contact Page and the Degree Page it was quite difficult to add the correct styles to each of the classes for example the list of the contact form so it could when it was visualised in the website it was clear and friendly to users to read and see the content. 
 
 Problem 3: During the development of the Net page, small problem occured on the font of the menu where the links to the other websites are located. This was a bit weird since the same CSS style and code was used over and over again of the previous sections and the font did not change at any point. But on the Net Page it changed to another font using the same CSS code, so I investigated to find what was the original font used in the other pages. The result was that the font used was called "Poppins", so I decided to manually fix the problem by adding "font-family: Poppins;" in the appropiate part of the code and the issue was solved. This also happened for the copyright section of the page, at the end this code was used in the CSS file "font-family: Montserrat;". For the future I will use this fragments to avoid any problems further on.
+
+Problem 4: I had not paid attention correctly and some miscommunication made me make a different CSS file for each individual webpage, this means that there was, for example, a CSS file for the Fundamentals Page and another different CSS file for the Degree page. The simple solution was to copy and paste all of the CSS files and add the prefix of the page there were going to be applied to, for example, the part of the CSS that was going to be applied to the Net page would be ".net .nameofclass". For the HTML a whole style with the name of the prefix in the CSS code was going to be applied in the whole of the body, taking the Net Page as an example;
+"<body class="net">". This was all done with the same application for all of the webpages. Later, it was tested and it worked at the first time.
 
 **TIMELINE OF DEVELOPMENT**
 
@@ -138,10 +141,20 @@ Updated by fixing minor errors in the different webpages and also CSS. CSS has b
 
 Uploaded 2nd picture to be used in the About Me page. 
 
-To this point all of the websites have been completed. The only thing missing are the website links to the webpages of my partes, however their the links from my webpage has already been created the only thing missing are the specific links to their websites. 
+To this point all of the websites have been completed. The only thing missing are the website links to the webpages of my parts, however their the links from my website in the Net Page has already been created the only thing missing are the specific links to their websites. 
 
 **10/12/2023**
 
-In the links of the footer, links have been updated so that two links now redirect to the README.md file and the LICENSE file. 
+In the links of the footer, links have been updated so that two links now redirect to the README.md file and the LICENSE file.
+
+**11/12/2023**
+
+Uploaded a new CSS file with all of webpages CSS all combined (see Problem 4)
+
+Removed other CSS files with individual relation to only 1 webpage (see Problem 4)
+
+Fixed some gramatical errors in all of the webpages
+
+Addressed and solved Problem 4
 
 **CONCLUSIONS**
