@@ -1,0 +1,1525 @@
+/* Styles for the Home Page (index.html) */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.home .header {
+    height: 90px; 
+    background-color: rgb(181, 208, 218);
+    border-bottom: 1px solid black; 
+    width: 100%;
+    
+}
+
+.home .header_container {
+    margin: auto; 
+    width: 90%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.home .header_namepage {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 253, 0);
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.home .Menu > div > a {
+    color: rgb(0, 100, 0);
+    cursor: pointer;
+    text-decoration: none;
+    flex: 1 0 auto;
+}
+
+.home .Menu {
+    margin-left: auto;
+    font-size: 20px;
+    gap: 30px;
+    align-items: right;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.home .Menu > div > a:hover {
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.home .hero1 {
+
+    background-image: url("../Images/home.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 800px;
+}
+
+.home .hero_content1 {
+    margin: auto; 
+    width: 800px; 
+    height: 400px; 
+    text-align: center;
+    margin-top: 0px;
+}
+
+.home .hero_header1 {
+    color: black;
+    background-color: rgb(2, 0, 24);
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    width: 800px; 
+    text-transform: uppercase;
+    font-family: Garamond;
+    margin: auto; 
+    height: 130px;
+}
+
+.home .hero_description1 {
+    margin-top: 40px;
+    background-color: rgb(22, 85, 131);
+    font-size: 25px;
+    line-height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: forestgreen;
+    font-weight: 300;
+    letter-spacing: 3px;
+    height: auto; 
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+.home p {
+
+    margin-top: 20px;
+}
+
+.home .hero_list1 {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(173, 173, 174);
+    letter-spacing: 3px;
+    height: auto; 
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    line-height: 30px;
+}
+
+
+.home .footer {
+    background-color: rgb(3, 60, 24);
+    width: 100%;
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home .footer_links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.home .footer_links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.home .footer_links a {
+    color: rgb(151, 45, 35, 255);
+    text-decoration: none;
+    display: block; 
+}
+
+.home .footer_links a:hover {
+    color: white; 
+}
+
+.home .footer_copyright {
+    text-align: left;
+    width: 33%;
+    display: flex;
+    color: rgb(151, 144, 133);
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.home .footer_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%; 
+}
+
+/* Styles for the topic page */ 
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topic .header {
+    height: 90px; 
+    background-color: rgb(181, 208, 218);
+    border-bottom: 1px solid black; 
+    width: 100%;
+}
+
+.topic .header_container {
+    margin: auto; 
+    width: 90%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topic .header_namepage {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 253, 0);
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.topic .Menu > div > a {
+    color: rgb(0, 100, 0);
+    cursor: pointer;
+    text-decoration: none;
+    flex: 1 0 auto;
+    font-weight: normal; 
+    font-family: Poppins;
+}
+
+.topic .Menu {
+    margin-left: auto;
+    font-size: 20px;
+    gap: 30px;
+    align-items: right;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.topic .Menu > div > a:hover {
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.topic .hero1 {
+    background-image: url("../Images/aboutme.jpeg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 1000px;
+}
+
+.topic .hero_content1 {
+    margin: auto; 
+    width: 800px; 
+    height: 400px; 
+    text-align: center;
+    margin-top: 0px;
+}
+
+.topic .hero_header1 {
+    color: black;
+    background-color: rgb(2, 0, 24);
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    width: 800px; 
+    text-transform: uppercase;
+    font-family: Garamond;
+    margin: auto; 
+    height: 180px;
+}
+
+.topic .hero_description1 {
+    margin-top: 40px;
+    background-color: rgb(22, 85, 131);
+    font-size: 25px;
+    line-height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: forestgreen;
+    font-weight: 300;
+    letter-spacing: 3px;
+    height: auto; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.topic p {
+    margin-top: 20px;
+}
+
+.topic body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.topic .hero_boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.topic .box {
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px; 
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topic .box_red {
+    background-color: red;
+    position: relative; 
+}
+
+.topic .box_red img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+.topic .hero_photo_footer {
+    color: white;
+    margin-top: 5px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.topic p {
+    margin: 10px;
+}
+
+.topic .box_purple {
+    background-color: purple;
+    height: 300px; 
+    font-size: 15px; 
+    font-family: Calibri; 
+}
+
+.topic .text {
+    margin-bottom: 60px; 
+    font-family: Calibri; 
+    font-size: 15px; 
+    font-family: Calibri;
+}
+
+.topic .list {
+    margin-top: 60px; 
+}
+
+.topic .box_header {
+    background-color: orange;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.topic a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topic a:hover {
+    color: rgb(255, 255, 0); 
+}
+
+.topic .footer {
+    background-color: rgb(3, 60, 24);
+    width: 100%;
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topic .footer_links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.topic .footer_links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.topic .footer_links a {
+    color: rgb(151, 45, 35, 255);
+    text-decoration: none;
+    display: block; 
+}
+
+.topic .footer_links a:hover {
+    color: white; 
+}
+
+.topic .footer_copyright {
+    text-align: left;
+    width: 33%;
+    display: flex;
+    color: rgb(151, 144, 133);
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.topic .footer_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%; 
+}
+
+/* Styles for the Net Page */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.net .header {
+    height: 90px; 
+    background-color: rgb(181, 208, 218);
+    border-bottom: 1px solid black; 
+    width: 100%;
+}
+
+.net .header_container {
+    margin: auto; 
+    width: 90%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.net .header_namepage {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 253, 0);
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.net .Menu > div > a {
+    color: rgb(0, 100, 0);
+    cursor: pointer;
+    text-decoration: none;
+    flex: 1 0 auto;
+    font-weight: normal; 
+    font-family: Poppins;
+}
+
+.net .Menu {
+    margin-left: auto;
+    font-size: 20px;
+    gap: 30px;
+    align-items: right;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.net .Menu > div > a:hover {
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.net .hero1 {
+    background-image: url("../Images/net.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 800px;
+}
+
+.net .hero_content1 {
+    margin: auto; 
+    width: 800px; 
+    height: 400px; 
+    text-align: center;
+    margin-top: 0px;
+}
+
+.net .hero_header1 {
+    color: black;
+    background-color: rgb(2, 0, 24);
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    width: 800px; 
+    text-transform: uppercase;
+    font-family: Garamond;
+    margin: auto; 
+    height: 80px;
+}
+
+.net .hero_description1 {
+    margin-top: 40px;
+    background-color: rgb(22, 85, 131);
+    font-size: 25px;
+    line-height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: forestgreen;
+    font-weight: 300;
+    letter-spacing: 3px;
+    height: auto; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.net body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.net .hero_boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.net .box {
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 150px; 
+    height: 150px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.net .box_header {
+    background-color: orange;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.net a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.net a:hover {
+    color: rgb(255, 255, 0); 
+}
+
+.net .footer {
+    background-color: rgb(3, 60, 24);
+    width: 100%;
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.net .footer_links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.net .footer_links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.net .footer_links a {
+    color: rgb(151, 45, 35, 255);
+    text-decoration: none;
+    display: block; 
+}
+
+.net .footer_links a:hover {
+    color: white; 
+}
+
+.net .footer_copyright {
+    text-align: left;
+    width: 33%;
+    display: flex;
+    color: rgb(151, 144, 133);
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.net .footer_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%; 
+}
+
+/* Styles for Fundamentals Page */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.fundamentals .header {
+    height: 90px; 
+    background-color: rgb(181, 208, 218);
+    border-bottom: 1px solid black; 
+    width: 100%;
+}
+
+.fundamentals .header_container {
+    margin: auto; 
+    width: 90%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fundamentals .header_namepage {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 253, 0);
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.fundamentals .Menu > div > a {
+    color: rgb(0, 100, 0);
+    cursor: pointer;
+    text-decoration: none;
+    flex: 1 0 auto;
+}
+
+.fundamentals .Menu {
+    margin-left: auto;
+    font-size: 20px;
+    gap: 30px;
+    align-items: right;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.fundamentals .Menu > div > a:hover {
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fundamentals .hero1 {
+    background-image: url("../Images/computer-science\ fundamentals.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 800px;
+}
+
+.fundamentals .hero_content1 {
+    margin: auto; 
+    width: 800px; 
+    height: 400px; 
+    text-align: center;
+    margin-top: 0px;
+}
+
+.fundamentals .hero_header1 {
+    color: black;
+    background-color: rgb(2, 0, 24);
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    width: 800px; 
+    text-transform: uppercase;
+    font-family: Garamond;
+    margin: auto; 
+    height: 187px;
+}
+
+.fundamentals .hero_description1 {
+    margin-top: 40px;
+    background-color: rgb(22, 85, 131);
+    font-size: 25px;
+    line-height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: forestgreen;
+    font-weight: 300;
+    letter-spacing: 3px;
+    height: auto; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.fundamentals .hero_subject {
+    background-color: orange;
+    color:rgb(8, 1, 84);
+    font-weight: 10px;
+    font-size: 20px;
+    margin-top: 40px;
+    width: 800px;
+    height: 250px;
+}
+
+.fundamentals p {
+    margin-top: 20px;
+}
+
+.fundamentals .footer {
+    background-color: rgb(3, 60, 24);
+    width: 100%;
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 390px;
+}
+
+.fundamentals .footer_links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.fundamentals .footer_links a {
+    color: rgb(151, 45, 35, 255);
+    text-decoration: none;
+    display: block; 
+}
+
+.fundamentals .footer_links a:hover {
+    color: white; 
+}
+
+.fundamentals .footer_copyright {
+    text-align: left;
+    width: 33%;
+    display: flex;
+    color: rgb(151, 144, 133);
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.fundamentals .footer_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%; 
+}
+
+
+/* Styles for the Degree Page */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.degree .header {
+    height: 90px; 
+    background-color: rgb(181, 208, 218);
+    border-bottom: 1px solid black; 
+    width: 100%;
+}
+
+.degree .header_container {
+    margin: auto; 
+    width: 90%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.degree .header_namepage {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 253, 0);
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.degree .Menu > div > a {
+    color: rgb(0, 100, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.degree .Menu {
+    margin-left: auto;
+    font-size: 20px;
+    gap: 30px;
+    align-items: right;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.degree .Menu > div > a:hover {
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.degree .hero1 {
+    background-image: url("../Images/degree.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 1100px;
+}
+
+.degree .hero_content1 {
+    margin: auto; 
+    width: 800px; 
+    height: 400px; 
+    text-align: center;
+    margin-top: 0px;
+}
+
+.degree .hero_header1 {
+    color: black;
+    background-color: rgb(2, 0, 24);
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: white;
+    width: 800px; 
+    text-transform: uppercase;
+    font-family: Garamond;
+    margin: auto; 
+    height: 100px;
+}
+
+.degree .hero_description1 {
+    margin-top: 40px;
+    background-color: rgb(22, 85, 131);
+    font-size: 25px;
+    line-height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: forestgreen;
+    font-weight: 300;
+    letter-spacing: 3px;
+    height: auto; 
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.degree .courses {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 20px;
+    width: auto;
+}
+
+.degree .course_year {
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    width: 100%; 
+    padding: 20px; 
+    margin: 1%; 
+    margin-bottom: 30px; 
+    text-align: left; 
+}
+
+.degree .link_fundamentals {
+    text-decoration: none;
+    color: purple;
+}
+
+.degree .link_fundamentals:hover,
+.degree .link_fundamentals a:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.degree .link_fundamentals a {
+    text-decoration: none;
+    display: block;
+}
+
+.degree .course_year h2 {
+    background-color: gray;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.degree .course_year ul li {
+    margin-bottom: 10px; 
+}
+
+.degree .footer {
+    background-color: rgb(3, 60, 24);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.degree .footer_links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.degree .footer_links a {
+    color: rgb(151, 45, 35, 255);
+    text-decoration: none;
+    display: block; 
+}
+
+.degree .footer_links a:hover {
+    color: white; 
+}
+
+.degree .footer_copyright {
+    text-align: left;
+    width: 33%;
+    display: flex;
+    color: rgb(151, 144, 133);
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.degree .footer_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%; 
+}
+
+/* Styles for the Contact Page */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contact .header {
+    height: 90px; 
+    background-color: rgb(181, 208, 218);
+    border-bottom: 1px solid black; 
+    width: 100%;
+}
+
+.contact .header_container {
+    margin: auto; 
+    width: 90%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .header_namepage {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 253, 0);
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.contact .Menu > div > a {
+    color: rgb(0, 100, 0);
+    cursor: pointer;
+    text-decoration: none;
+    flex: 1 0 auto;
+}
+
+.contact .Menu {
+    margin-left: auto;
+    font-size: 20px;
+    gap: 30px;
+    align-items: right;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.contact .Menu > div > a:hover {
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contact body {
+    background-color: blue; 
+}
+
+.contact .hero1 {
+    background-image: url("..//Images/Retro.jpeg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 1000px;
+}
+
+.contact .hero_content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.contact .hero_content1 form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(151, 45, 35, 255); 
+    padding: 40px; 
+    border-radius: 5px; 
+    margin-top: 20px; 
+}
+
+.contact .hero_header1 {
+    background-color: rgb(2, 0, 24);
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: white;
+    width: 540px;
+    text-transform: uppercase;
+    font-family: Garamond;
+    margin: auto;
+    height: auto;
+}
+
+.contact .hero_description1 {
+    margin-top: 40px;
+    background-color: rgb(22, 85, 131);
+    font-size: 25px;
+    line-height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: forestgreen;
+    font-weight: 300;
+    letter-spacing: 3px;
+    height: auto; 
+    text-align: left;
+    padding-bottom: 20px;
+    padding: 20px; 
+    border: 1px solid #ccc; 
+}
+
+.contact .contact-form {
+    width: 300px;
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+.contact .contact-form h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.contact .contact-form label {
+    display: block;
+    margin-top: 20px;
+}
+
+.contact .contact-form input[type="text"],
+.contact .contact-form input[type="tel"],
+.contact .contact-form input[type="email"],
+.contact .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact .contact-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact .contact-form input[type="submit"]:hover {
+    background-color: lightskyblue; 
+    color: #fff; 
+}
+
+.contact .footer {
+    background-color: rgb(3, 60, 24);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px; 
+}
+
+.contact .footer_links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.contact .footer_links a {
+    color: rgb(151, 45, 35, 255);
+    text-decoration: none;
+    display: block; 
+}
+
+.contact .footer_links a:hover {
+    color: white; 
+}
+
+.contact .footer_copyright {
+    text-align: left;
+    width: 33%;
+    display: flex;
+    color: rgb(151, 144, 133);
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .footer_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%; 
+}
+
+.contact body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* Styles for the About Me Page */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.about .header {
+    height: 90px; 
+    background-color: rgb(181, 208, 218);
+    border-bottom: 1px solid black; 
+    width: 100%;
+}
+
+.about .header_container {
+    margin: auto; 
+    width: 90%; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .header_namepage {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 253, 0);
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.about .Menu > div > a {
+    color: rgb(0, 100, 0);
+    cursor: pointer;
+    text-decoration: none;
+    flex: 1 0 auto;
+    font-weight: normal; 
+    font-family: Poppins;
+}
+
+.about .Menu {
+    margin-left: auto;
+    font-size: 20px;
+    gap: 30px;
+    align-items: right;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.about .Menu > div > a:hover {
+    color: rgb(255, 89, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.about .hero1 {
+    background-image: url("../Images/aboutme.jpeg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 1300px;
+}
+
+.about .hero_content1 {
+    margin: auto; 
+    width: 800px; 
+    height: 400px; 
+    text-align: center;
+    margin-top: 0px;
+}
+
+.about .hero_header1 {
+    color: black;
+    background-color: rgb(2, 0, 24);
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center;
+    color: white;
+    width: 800px; 
+    text-transform: uppercase;
+    font-family: Garamond;
+    margin: auto; 
+    height: 120px;
+}
+
+.about .hero_description1 {
+    margin-top: 40px;
+    background-color: rgb(22, 85, 131);
+    font-size: 25px;
+    line-height: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: forestgreen;
+    font-weight: 300;
+    letter-spacing: 3px;
+    height: auto; 
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+.about body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.about p {
+    margin-top: 20px;
+}
+
+.about .hero_boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.about .box {
+    background-color: black;
+    margin: 15px;
+    padding: 5px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px; 
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about .box_red {
+    background-color: red;
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 240px;
+    min-width: 200px; 
+}
+
+.about .box_red img {
+    width: 80%; 
+    height: 80%;
+    height: auto; 
+    object-fit: cover;   
+}
+
+.about .hero_photo_footer {
+    color: white;
+    margin-top: 5px;
+    font-family: Arial;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about .list h5 {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.about .social_media h5 {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.about .social_media a {
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+.about .social_media ul li {
+    padding-left: 100px;
+}
+
+.about ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.about .box_purple {
+    background-color: purple;
+    height: 860px; 
+    min-width: 330px;
+    font-size: 15px;
+}
+
+.about .text {
+    margin-bottom: 60px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about .list {
+    margin-top: 40px; 
+    font-size: 15px;
+}
+
+.about .box_header {
+    background-color: orange;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.about .box_green {
+    background-color: green;
+    min-width: 400px; 
+    height: 860px;
+    border-radius: 10px;
+}
+
+.about .background_info {
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: start;
+}
+
+.about .box_blue {
+    background-color: blue;
+    min-width: 400px; 
+    height: 860px;
+}
+
+.about .box_blue img {
+    width: 60%; 
+    height: 30%;
+    object-fit: cover;   
+}
+
+.about .box .box_blue h4 {
+    font-family: Helvetica;
+} 
+
+.about a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about a:hover {
+    color: rgb(255, 255, 0); 
+}
+
+.about .footer {
+    background-color: rgb(3, 60, 24);
+    width: 100%;
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .footer_links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 33%;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: normal;
+}
+
+.about .footer_links a {
+    color: rgb(151, 45, 35, 255);
+    text-decoration: none;
+    display: block; 
+}
+
+.about .footer_links a:hover {
+    color: white; 
+}
+
+.about .footer_copyright {
+    text-align: left;
+    width: 33%;
+    display: flex;
+    color: rgb(151, 144, 133);
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.about .footer_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%; 
+}
+
