@@ -99,6 +99,7 @@
     height: auto; 
     text-align: center;
     padding-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 body {
@@ -110,22 +111,24 @@ body {
 p {
     margin-top: 20px;
 }
+
 .hero_boxes {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
+    flex-wrap: nowrap;
 }
 
 .box {
     background-color: black;
-    margin: 20px;
-    padding: 20px;
+    margin: 15px;
+    padding: 5px;
     color: white;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 300px; 
-    height: 600px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,14 +144,15 @@ p {
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
-    height: 900px;
+    height: 240px;
+    min-width: 200px; 
 }
 
 .box_red img {
     width: 80%; 
+    height: 80%;
     height: auto; 
-    object-fit: cover; 
-  
+    object-fit: cover;   
 }
 
 .hero_photo_footer {
@@ -159,8 +163,14 @@ p {
     margin-bottom: 10px;
 }
 
+.list h5 {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
 .social_media h5 {
     font-family: 'Times New Roman';
+    font-size: 20px;
 }
 
 .social_media a {
@@ -169,15 +179,22 @@ p {
 }
 
 .social_media ul li {
-    padding-right: 160px; 
+    padding-left: 100spx;
 }
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
 
 .box_purple {
     background-color: purple;
-    height: 900px; 
-    width: 300px;
+    height: 860px; 
+    min-width: 330px;
     font-size: 15px;
 }
+
 
 .text {
     margin-bottom: 60px; 
@@ -185,7 +202,9 @@ p {
 }
 
 .list {
-    margin-top: 60px; 
+    margin-top: 40px; 
+    font-size: 15px;
+
 }
 
 .box_header {
@@ -196,6 +215,39 @@ p {
     padding: 10px 0;
     margin-bottom: 10px;
 }
+
+.box_green {
+    background-color: green;
+    min-width: 400px; 
+    height: 860px;
+    border-radius: 10px;
+}
+
+.background_info {
+
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: start;
+}
+
+
+.box_blue {
+    background-color: blue;
+    min-width: 400px; 
+    height: 860px;
+}
+
+.box_blue img {
+    width: 60%; 
+    height: 30%;
+    object-fit: cover;   
+}
+
+.box .box_blue h4 {
+
+    font-family: Helvetica;
+} 
 
 a {
     color: white;
