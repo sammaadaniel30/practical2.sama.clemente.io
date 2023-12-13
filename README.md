@@ -157,4 +157,8 @@ Fixed some gramatical errors in all of the webpages
 
 Addressed and solved Problem 4
 
+**13/12/2023**
+
+Added clarity for the HTML code in all of the individual sections, no visual change was done on the output of the HTML. 
+
 **CONCLUSIONS**
