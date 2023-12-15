@@ -35,6 +35,8 @@ Problem 3: During the development of the Net page, small problem occured on the 
 Problem 4: I had not paid attention correctly and some miscommunication made me make a different CSS file for each individual webpage, this means that there was, for example, a CSS file for the Fundamentals Page and another different CSS file for the Degree page. The simple solution was to copy and paste all of the CSS files and add the prefix of the page there were going to be applied to, for example, the part of the CSS that was going to be applied to the Net page would be ".net .nameofclass". For the HTML a whole style with the name of the prefix in the CSS code was going to be applied in the whole of the body, taking the Net Page as an example;
 "<body class="net">". This was all done with the same application for all of the webpages. Later, it was tested and it worked at the first time.
 
+Problem 5: When the repository was sent to GitHub, there was a problem where all of the links were not working and it seems weird as in the local machine all of the pages worked perfectly. At the end the problem was that an absolute path was created by accident and it was not correcly added and GitHub couldn't read it correctly. So the link was fixed and then it worked on GitHub. 
+
 **TIMELINE OF DEVELOPMENT**
 
 **27/11/2023**
@@ -160,5 +162,11 @@ Addressed and solved Problem 4
 **13/12/2023**
 
 Added clarity for the HTML code in all of the individual sections, no visual change was done on the output of the HTML. 
+
+**14/12/2023** 
+
+Added a new image in the Topic Page. 
+
+Adressed Problem 5. 
 
 **CONCLUSIONS**
