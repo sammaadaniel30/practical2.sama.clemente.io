@@ -171,7 +171,7 @@ Added a new image in the Topic Page.
 
 Adressed and solved Problem 5 and Problem 6. 
 
-Created a new folder called Others were the LICENSE.txt and Aboutsite.txt will be uploaded
+Created a new folder called Others were the terms.txt and aboutsite.txt will be uploaded
 
 Uploaded terms.txt
 
