@@ -37,6 +37,8 @@ Problem 4: I had not paid attention correctly and some miscommunication made me 
 
 Problem 5: When the repository was sent to GitHub, there was a problem where all of the links were not working and it seems weird as in the local machine all of the pages worked perfectly. At the end the problem was that an absolute path was created by accident and it was not correcly added and GitHub couldn't read it correctly. So the link was fixed and then it worked on GitHub. 
 
+Problem 6: A similar thing happened with the footer I put in all of the pages, the footer had in the center 3 links that would open a new window in the web browser to see for example in the link About to see the README.md file, in the Privacy link it would direct to the privacy page of GitHub and on the Terms and Conditions it would direct to the LICENSE file. This is something which I wanted to do and in the local machine it worked however in GitbHub it didn't so after all of attemps to correct the link and trying to make it show once in GitHub but it didn't work, so I decided to better set up a text file directly putting the content from the LICENSE and README.md file to actually make the browser open another page. 
+
 **TIMELINE OF DEVELOPMENT**
 
 **27/11/2023**
@@ -167,6 +169,12 @@ Added clarity for the HTML code in all of the individual sections, no visual cha
 
 Added a new image in the Topic Page. 
 
-Adressed Problem 5. 
+Adressed and solved Problem 5 and Problem 6. 
+
+Created a new folder called Others were the LICENSE.txt and Aboutsite.txt will be uploaded
+
+Uploaded LINCENSE.txt
+
+Uploaded Aboutsite.txt
 
 **CONCLUSIONS**
