@@ -173,8 +173,8 @@ Adressed and solved Problem 5 and Problem 6.
 
 Created a new folder called Others were the LICENSE.txt and Aboutsite.txt will be uploaded
 
-Uploaded LINCENSE.txt
+Uploaded terms.txt
 
-Uploaded Aboutsite.txt
+Uploaded aboutsite.txt
 
 **CONCLUSIONS**
