@@ -1200,11 +1200,13 @@
 
 .contact .footer_links {
     flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     width: 33%;
     font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: normal;
 }
 
 .contact .footer_links {
