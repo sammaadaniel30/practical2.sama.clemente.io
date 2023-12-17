@@ -185,4 +185,10 @@ Uploaded video to the folder videos, also was included in the Topic Page HTML.
 
 CSS and HTML had some small problems in the code, but there were minimal and they were easily fixed. 
 
+Added all of the links of my partners' webpages in the Topic Page. 
+
+Finished Development 
+
 **CONCLUSIONS**
+
+The most difficult part of making this website was probably the beggining, this includes making the correct design in Figma and later putting in into the webpage, then I had other trouble with making the correct commands for the CSS file and later being applied correctly into the HTML, and then creating the correct clases and also making sure that in a box with multiple actions like links, images or videos had the correct style applied to them were I had to make different CSS commands for each of them. At the end I consider that applying/including the content was the most straighforward as it was in most times you writing text. I had already done HTML in Secondary School but I forgot everything about it. However, I had fun making this website and also I learned in a faster and quicker way. 
