@@ -1516,6 +1516,7 @@
 .about .list h5 {
     font-family: 'Times New Roman';
     font-size: 20px;
+    margin-left: 20pxs;
 }
 
 .about .social_media h5 {
@@ -1526,10 +1527,6 @@
 .about .social_media a {
     font-family: Verdana;
     font-size: 14px;
-}
-
-.about .social_media ul li {
-    padding-left: 100px;
 }
 
 .about ul {
