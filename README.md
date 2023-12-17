@@ -177,4 +177,12 @@ Uploaded terms.txt
 
 Uploaded aboutsite.txt
 
+**17/12/2023**
+
+Created a new folder to store in that place the videos. Folder name was given the name "Videos". 
+
+Uploaded video to the folder videos, also was included in the Topic Page HTML. 
+
+CSS and HTML had some small problems in the code, but there were minimal and they were easily fixed. 
+
 **CONCLUSIONS**
