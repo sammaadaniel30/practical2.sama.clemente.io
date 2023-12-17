@@ -187,6 +187,8 @@ CSS and HTML had some small problems in the code, but there were minimal and the
 
 Added all of the links of my partners' webpages in the Topic Page. 
 
+Added the following commands into the CSS file; display: flex; and wrap-flex: wrap;. This will be applied to all pages.
+
 Finished Development 
 
 **CONCLUSIONS**
