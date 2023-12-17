@@ -403,7 +403,8 @@
     width: 800px;
     height: 600px;
     color: white;
-    font-family: Arial;
+    font-family: 'Times New Roman';
+    text-align: center;
     font-size: 17.5px;
     margin-left: 360px;
     margin-top: 1300px;
